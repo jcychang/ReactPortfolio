@@ -104,6 +104,40 @@ footer {
 	background: #f6f6f6;
 }
 
+//Modal
+.modal {
+	position: absolute;
+	top: 0px;
+	left: 15%;
+	right: 15%;
+	bottom: 0px;
+	background-color: white;
+	overflow: auto;
+}
+.modal-panel {
+	margin-top: 5em;
+}
+.overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+.ReactModalPortal > div {
+	opacity: 0;
+}
+.ReactModalPortal .ReactModal__Overlay {
+	transition: opacity 500ms ease-in-out;
+	background: rgba(0, 0, 0, 0.25);
+	&--after-open {
+		opacity: 1;
+	}
+	&--before-close {
+		opacity: 0;
+	}
+}
+
 //Typography
 span {
 	color: $color-grey;

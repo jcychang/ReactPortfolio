@@ -1,31 +1,46 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
-import ReactDOMServer from 'react-dom/server'
+import ReactModal from 'react-modal';
 
 class ModalTemplate extends React.Component {
-	componentDidMount() {
-		var modalMarkup = (
-			<div className="full reveal text-center" id="exampleModal1" data-reveal data-animation-in="fade-in" data-animation-out="fade-out">
-				<h1>Awesome. I Have It.</h1>
-				<p className="lead">Your couch. It is mine.</p>
-				<p>Im a cool paragraph that lives inside of an even cooler modal. Wins!</p>
-				<button className="close-button" data-close="" aria-label="Close modal" type="button">
-					<span aria-hidden="true">&times;</span>
-				</button>
-			</div>
-		);
+	constructor () {
+		super();
+		this.state = {
+			showModal: false
+		};
 
-		var $modal = $(ReactDOMServer.renderToString(modalMarkup));
-		$(ReactDOM.findDOMNode(this)).html($modal);
+		this.handleOpenModal = this.handleOpenModal.bind(this);
+		this.handleCloseModal = this.handleCloseModal.bind(this);
+	}
 
-		var modal = new Foundation.Reveal($('#exampleModal1'));
-		modal.open();
+	handleOpenModal () {
+		this.setState({ showModal: true });
+	}
+
+	handleCloseModal () {
+		this.setState({ showModal: false });
 	}
 	render() {
 		return (
 			<div>
+				<a onClick={this.handleOpenModal}><img src={require('../assets/Color1.png')}/></a>
+				<ReactModal
+					isOpen={this.state.showModal}
+					contentLabel="Minimal Modal Example"
+					closeTimeoutMS={500}
+					className="modal"
+					overlayClassName="overlay"
+					onRequestClose={this.handleCloseModal}
+					shouldCloseOnOverlayClick={true}
+				>
+					<button onClick={this.handleCloseModal} className="close-button"><span aria-hidden="true">&times;</span></button>
+					<div className = "row modal-content">
+						<div className = "columns medium-8 small-centered modal-panel text-center">
+							<h1>Project 1</h1><h1>Project 1</h1><h1>Project 1</h1><h1>Project 1</h1><h1>Project 1</h1><h1>Project 1</h1><h1>Project 1</h1><h1>Project 1</h1><h1>Project 1</h1><h1>Project 1</h1><h1>Project 1</h1><h1>Project 1</h1><h1>Project 1</h1><h1>Project 1</h1><h1>Project 1</h1><h1>Project 1</h1><h1>Project 1</h1><h1>Project 1</h1><h1>Project 1</h1><h1>Project 1</h1><h1>Project 1</h1>
+						</div>
+					</div>
+				</ReactModal>
 			</div>
-		);
+		)
 	}
 }
 
