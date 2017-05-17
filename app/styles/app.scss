@@ -1,0 +1,116 @@
+//Sass Varables
+$color-grey: #888;
+$color-blue: #1975d1;
+$color-red: #d72225;
+$primary-typo: black;
+$secondary-typo: #1975d1;
+$tertiary-typo: #fe6262;
+
+$nav-bar-bg: transparent;
+$nav-bar-link: black;
+
+$space-large: 1em;
+
+$bg-img: url("../assets/Color1.png");
+
+//Navigation Topbar
+.top-bar {
+	background: $nav-bar-bg;
+	margin: 1em 0;
+}
+.top-bar-left {
+	margin-left: 10%;
+}
+.top-bar-right {
+	margin-right: 10%;
+}
+.top-bar ul li a{
+	color: $nav-bar-link;
+	background: $nav-bar-bg;
+	font-size: 110%;
+}
+.top-bar, .top-bar ul {
+	background-color: $nav-bar-bg;
+}
+.top-bar .menu-text {
+	background: $nav-bar-bg;
+	font-size: 110%;
+}
+@media screen and (max-width: 639px) {
+	.top-bar {
+		margin: 0 0;
+	}
+	.top-bar-left {
+		margin-left: 0;
+	}
+}
+
+//Navigation Topbar When Collapsed
+.title-bar {
+	background: $nav-bar-bg;
+}
+.title-bar-title {
+	color: $primary-typo;
+
+}
+.title-bar .menu-icon {
+	margin-right: 1rem;
+}
+.menu-icon:after {
+	background: black;
+	box-shadow: 0 7px 0 black, 0 14px 0 black;
+}
+.menu-icon:hover:after {
+	background: black;
+	box-shadow: 0 7px 0 black, 0 14px 0 black;
+}
+
+//Carousel
+.slick-prev:before, .slick-next:before {
+	color: black;
+}
+.slick-dots {
+	position: relative;
+	bottom: 0;
+}
+
+//Layout
+html {
+	position: relative;
+	min-height: 100%;
+}
+body {
+	margin: 0 0 50px; /* bottom = footer height */
+}
+footer {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	// height: 100px;
+	width: 100%;
+}
+.title-panel {
+	background: $bg-img center center;
+	background-size: cover;
+	color: white;
+	height: 100%;
+	overflow: hidden;
+	padding: 7.5em 0;
+	position: relative;
+	width: 100%;
+}
+.panel {
+	padding: 2em 0;
+	background: #f6f6f6;
+}
+
+//Typography
+span {
+	color: $color-grey;
+}
+.emph {
+	color: $color-red;
+}
+.ital {
+	font-style: italic;
+}
