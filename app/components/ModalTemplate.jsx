@@ -35,7 +35,7 @@ class ModalTemplate extends React.Component {
 					<button onClick={this.handleCloseModal} className="close-button"><span aria-hidden="true">&times;</span></button>
 					<div className = "row modal-content">
 						<div className = "columns medium-8 small-centered modal-panel text-center">
-							<h1>Project 1</h1><h1>Project 1</h1><h1>Project 1</h1><h1>Project 1</h1><h1>Project 1</h1><h1>Project 1</h1><h1>Project 1</h1><h1>Project 1</h1><h1>Project 1</h1><h1>Project 1</h1><h1>Project 1</h1><h1>Project 1</h1><h1>Project 1</h1><h1>Project 1</h1><h1>Project 1</h1><h1>Project 1</h1><h1>Project 1</h1><h1>Project 1</h1><h1>Project 1</h1><h1>Project 1</h1><h1>Project 1</h1>
+							<h1>Project 1</h1>
 						</div>
 					</div>
 				</ReactModal>

@@ -1,7 +1,8 @@
 //Sass Varables
-$color-grey: #888;
+$color-dark-grey: #666;
 $color-blue: #1975d1;
-$color-red: #d72225;
+$color-red: #fe6262;
+$bg-grey: #f6f6f6;
 $primary-typo: black;
 $secondary-typo: #1975d1;
 $tertiary-typo: #fe6262;
@@ -95,21 +96,25 @@ footer {
 	color: white;
 	height: 100%;
 	overflow: hidden;
-	padding: 7.5em 0;
+	padding: 5em 0;
 	position: relative;
 	width: 100%;
 }
-.panel {
-	padding: 2em 0;
-	background: #f6f6f6;
+.panel-center-align {
+	padding: 2em 2em;
+	// background: $bg-grey;
+}
+.panel-left-align {
+	padding: 2em 2em;
+	// background: white;
 }
 
 //Modal
 .modal {
 	position: absolute;
 	top: 0px;
-	left: 15%;
-	right: 15%;
+	left: 0px;
+	right: 0px;
 	bottom: 0px;
 	background-color: white;
 	overflow: auto;
@@ -140,10 +145,13 @@ footer {
 
 //Typography
 span {
-	color: $color-grey;
+	color: $color-dark-grey;
+}
+.larger {
+	font-size: 110%;
 }
 .emph {
-	color: $color-red;
+	color: $color-blue;
 }
 .ital {
 	font-style: italic;
