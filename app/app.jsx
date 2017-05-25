@@ -19,6 +19,7 @@ $(document).ready(function(){
 
 // App css
 require('style-loader!css-loader!sass-loader!applicationStyles');
+require('style-loader!css-loader!sass-loader!timelineStyles');
 
 ReactDOM.render (
 	<Router>

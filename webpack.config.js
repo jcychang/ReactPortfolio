@@ -24,6 +24,7 @@ module.exports = {
 		modules: [__dirname, 'node_modules'],
 		alias: {
 			applicationStyles: 'app/styles/app.scss',
+			timelineStyles: 'app/styles/timeline.scss',
 			NavBar: 'app/components/NavBar.jsx',
 			Footer: 'app/components/Footer.jsx',
 			About: 'app/components/About.jsx',

@@ -9,7 +9,7 @@ class About extends React.Component {
 			<div>
 				<div className = "row title-panel">
 					<div className = "columns medium-8 small-centered">
-						<h2>josh chang</h2>
+						<h2>Josh Chang</h2>
 						<h5>UX Designer & Software Developer</h5>
 						<a href=""><i className="mdi mdi-linkedin-box mdi-light mdi-36px"/></a>
 						<a href=""><i className="mdi mdi-github-box mdi-light mdi-36px"/></a>
@@ -17,8 +17,8 @@ class About extends React.Component {
 				</div>
 				<div className = "row text-center panel-center-align">
 					<div className = "columns medium-12">
-					<h3>career highlights</h3>
-					<hr/>
+						<h3>Career Highlights</h3>
+						<hr/>
 					</div>
 					<div className = "columns medium-3">
 						<i className="mdi mdi-briefcase"/>
