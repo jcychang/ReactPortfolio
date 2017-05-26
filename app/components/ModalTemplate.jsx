@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactModal from 'react-modal';
 
-class ModalTemplate extends React.Component {
+export default class ModalTemplate extends React.Component {
 	constructor () {
 		super();
 		this.state = {
@@ -43,5 +43,3 @@ class ModalTemplate extends React.Component {
 		)
 	}
 }
-
-module.exports = ModalTemplate;

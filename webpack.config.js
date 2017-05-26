@@ -25,12 +25,6 @@ module.exports = {
 		alias: {
 			applicationStyles: 'app/styles/app.scss',
 			timelineStyles: 'app/styles/timeline.scss',
-			NavBar: 'app/components/NavBar.jsx',
-			Footer: 'app/components/Footer.jsx',
-			About: 'app/components/About.jsx',
-			Blog: 'app/components/Blog.jsx',
-			Portfolio: 'app/components/Portfolio.jsx',
-			ModalTemplate: 'app/components/ModalTemplate.jsx'
 		},
 		extensions: ['*', '.js', '.jsx']
 	},

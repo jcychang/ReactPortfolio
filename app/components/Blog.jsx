@@ -1,6 +1,6 @@
 import React from 'react'
 
-class Blog extends React.Component {
+export default class Blog extends React.Component {
 	componentDidMount() {
 
 	}
@@ -8,7 +8,7 @@ class Blog extends React.Component {
 		return (
 			<div className = "row">
 				<div className = "columns medium-10 small-centered">
-					<h1 className="page-title">something about nothing</h1>
+					<h1 className="page-title">fluff and stuff</h1>
 					<ul className="cbp_tmtimeline">
 						<li>
 							<time className="cbp_tmtime" dateTime="2013-04-10 18:30"><span>4/10/13</span> <span>18:30</span></time>
@@ -32,5 +32,3 @@ class Blog extends React.Component {
 		)
 	}
 }
-
-module.exports = Blog;

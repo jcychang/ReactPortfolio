@@ -1,6 +1,6 @@
 import React from 'react'
 import Slider from 'react-slick'
-import ModalTemplate from 'ModalTemplate'
+import ModalTemplate from './ModalTemplate'
 
 class Portfolio extends React.Component {
 	render() {

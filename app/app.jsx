@@ -1,11 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import {HashRouter as Router, Route, Switch} from 'react-router-dom'
-import NavBar from 'NavBar'
-import About from 'About'
-import Portfolio from 'Portfolio'
-import Blog from 'Blog'
-import Footer from 'Footer'
+import { RouteTransition } from 'react-router-transition';
+import { HashRouter, Match } from 'react-router-dom'
+import NavBar from './components/NavBar'
+import About from './components/About'
+import Portfolio from './components/Portfolio'
+import Blog from './components/Blog'
+import Footer from './components/Footer'
 
 // Load Foundation
 require('style-loader!css-loader!foundation-sites/dist/css/foundation.min.css');
@@ -22,14 +23,14 @@ require('style-loader!css-loader!sass-loader!applicationStyles');
 require('style-loader!css-loader!sass-loader!timelineStyles');
 
 ReactDOM.render (
-	<Router>
+	<HashRouter>
 		<div>
 			<NavBar/>
-			<Route exact path="/" component={Portfolio}/>
-			<Route path="/about" component = {About}/>
-			<Route path="/blog" component = {Blog}/>
+			<Route path="/" exact component={Portfolio}/>
+			<Route path="/about" exact component={About}/>
+			<Route path="/blog" exact component={Blog}/>
 			<Footer/>
 		</div>
-	</Router>,
+	</HashRouter>,
 	document.getElementById('app')
 );

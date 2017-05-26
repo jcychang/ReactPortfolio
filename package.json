@@ -1,7 +1,7 @@
 {
-  "name": "boilerplate",
-  "version": "1.0.0",
-  "description": "React tutorial",
+  "name": "ReactPortfolio",
+  "version": "0.0.0",
+  "description": "Josh Chang React Portfolio",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -15,7 +15,8 @@
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
     "react-router": "^4.1.1",
-    "react-router-dom": "^4.1.1"
+    "react-router-dom": "^4.1.1",
+    "react-router-transition": "^0.1.1"
   },
   "devDependencies": {
     "babel-core": "^6.24.0",

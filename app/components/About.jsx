@@ -1,6 +1,6 @@
 import React from 'react'
 
-class About extends React.Component {
+export default class About extends React.Component {
 	componentDidMount() {
 
 	}
@@ -34,7 +34,7 @@ class About extends React.Component {
 					</div>
 					<div className = "columns medium-3">
 						<i className="mdi mdi-school"/>
-						<h5>2017 - Masters Candidate</h5>
+						<h5>2017 - Master's Candidate</h5>
 						<h6 className="emph">University of Maryland</h6>
 						<p className="ital"><span>Master of Science</span></p>
 					</div>
@@ -102,5 +102,3 @@ class About extends React.Component {
 		)
 	}
 }
-
-module.exports = About;

@@ -1,7 +1,7 @@
-var React = require('react');
-var {NavLink} = require('react-router-dom');
+import React from 'react';
+import {NavLink} from 'react-router-dom';
 
-class NavBar extends React.Component {
+export default class NavBar extends React.Component {
 	render() {
 		return (
 			<div>
@@ -13,13 +13,13 @@ class NavBar extends React.Component {
 						<ul className = "menu">
 							<li className = "menu-text">josh<span>chang</span></li>
 							<li>
-								<NavLink exact to = "/"  activeClassName = "active-link" activeStyle={{fontWeight: 'bold'}}>portfolio</NavLink>
+								<NavLink exact to="/" activeClassName = "active-link" activeStyle={{fontWeight: 'bold'}}>portfolio</NavLink>
 							</li>
 							<li>
-								<NavLink exact to = "/about" activeClassName = "active-link" activeStyle={{fontWeight: 'bold'}}>about</NavLink>
+								<NavLink exact to="/about" activeClassName = "active-link" activeStyle={{fontWeight: 'bold'}}>about</NavLink>
 							</li>
 							<li>
-								<NavLink exact to = "/blog"  activeClassName = "active-link" activeStyle={{fontWeight: 'bold'}}>blog</NavLink>
+								<NavLink exact to="/blog" activeClassName = "active-link" activeStyle={{fontWeight: 'bold'}}>blog</NavLink>
 							</li>
 						</ul>
 					</div>
@@ -28,5 +28,3 @@ class NavBar extends React.Component {
 		)
 	}
 };
-
-module.exports = NavBar;
