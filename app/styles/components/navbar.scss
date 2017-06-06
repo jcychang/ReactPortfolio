@@ -1,0 +1,31 @@
+//Navigation Topbar
+.top-bar {
+	background: $nav-bar-bg;
+	margin: 1em 0;
+}
+.top-bar-left {
+	margin-left: 10%;
+}
+.top-bar-right {
+	margin-right: 10%;
+}
+.top-bar ul li a{
+	color: $nav-bar-link;
+	background: $nav-bar-bg;
+	font-size: 110%;
+}
+.top-bar, .top-bar ul {
+	background-color: $nav-bar-bg;
+}
+.top-bar .menu-text {
+	background: $nav-bar-bg;
+	font-size: 110%;
+}
+@media screen and (max-width: 639px) {
+	.top-bar {
+		margin: 0 0;
+	}
+	.top-bar-left {
+		margin-left: 0;
+	}
+}

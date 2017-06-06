@@ -1,76 +1,9 @@
-//Sass Varables
-$color-dark-grey: #666666;
-$color-blue: #4990E2;
-$color-red: #fe6262;
-$bg-grey: #f6f6f6;
-$primary-typo: black;
-
-$nav-bar-bg: transparent;
-$nav-bar-link: black;
-
-$space-large: 1em;
-
-$bg-img: url("../assets/Color1.png");
-
-//Navigation Topbar
-.top-bar {
-	background: $nav-bar-bg;
-	margin: 1em 0;
-}
-.top-bar-left {
-	margin-left: 10%;
-}
-.top-bar-right {
-	margin-right: 10%;
-}
-.top-bar ul li a{
-	color: $nav-bar-link;
-	background: $nav-bar-bg;
-	font-size: 110%;
-}
-.top-bar, .top-bar ul {
-	background-color: $nav-bar-bg;
-}
-.top-bar .menu-text {
-	background: $nav-bar-bg;
-	font-size: 110%;
-}
-@media screen and (max-width: 639px) {
-	.top-bar {
-		margin: 0 0;
-	}
-	.top-bar-left {
-		margin-left: 0;
-	}
-}
-
-//Navigation Topbar When Collapsed
-.title-bar {
-	background: $nav-bar-bg;
-}
-.title-bar-title {
-	color: $primary-typo;
-}
-.title-bar .menu-icon {
-	margin-right: 1rem;
-}
-.menu-icon:after {
-	background: black;
-	box-shadow: 0 7px 0 black, 0 14px 0 black;
-}
-.menu-icon:hover:after {
-	background: black;
-	box-shadow: 0 7px 0 black, 0 14px 0 black;
-}
-
-//Carousel
-.slick-prev:before, .slick-next:before {
-	color: black;
-}
-.slick-dots {
-	position: relative;
-	bottom: 0;
-}
+@import './variables/variables';
+@import './components/navbar';
+@import './components/navbar_collapsed';
+@import './components/carousel';
+@import './components/modal';
+@import './components/typography';
 
 //Layout
 html {
@@ -104,52 +37,8 @@ footer {
 .panel-left-align {
 	padding: 2em 2em;
 	// background: white;
-}
 
-//Modal
-.modal {
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	right: 0px;
-	bottom: 0px;
-	background-color: white;
-	overflow: auto;
-}
-.modal-panel {
-	margin-top: 5em;
-}
-.overlay {
-	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-}
-.ReactModalPortal > div {
-	opacity: 0;
-}
-.ReactModalPortal .ReactModal__Overlay {
-	transition: opacity 500ms ease-in-out;
-	background: rgba(0, 0, 0, 0.25);
-	&--after-open {
-		opacity: 1;
+	.exp-panel {
+		margin-bottom: 2em;
 	}
-	&--before-close {
-		opacity: 0;
-	}
-}
-
-//Typography
-span {
-	color: $color-dark-grey;
-}
-.larger {
-	font-size: 110%;
-}
-.emph {
-	color: $color-blue;
-}
-.ital {
-	font-style: italic;
 }

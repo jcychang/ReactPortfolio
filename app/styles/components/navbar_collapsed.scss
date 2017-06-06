@@ -1,0 +1,19 @@
+//Navigation Topbar When Collapsed
+.title-bar {
+	background: $nav-bar-bg;
+
+	.menu-icon {
+		margin-right: 1rem;
+	}
+}
+.title-bar-title {
+	color: $primary-typo;
+}
+.menu-icon:after {
+	background: black;
+	box-shadow: 0 7px 0 black, 0 14px 0 black;
+}
+.menu-icon:hover:after {
+	background: black;
+	box-shadow: 0 7px 0 black, 0 14px 0 black;
+}

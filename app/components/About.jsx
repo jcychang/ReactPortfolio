@@ -15,6 +15,7 @@ export default class About extends React.Component {
 						<a href=""><i className="mdi mdi-github-box mdi-light mdi-36px"/></a>
 					</div>
 				</div>
+
 				<div className = "row text-center panel-center-align">
 					<div className = "columns medium-12">
 						<h3>Career Highlights</h3>
@@ -45,31 +46,38 @@ export default class About extends React.Component {
 						<p className="ital"><span>Web & Media Designer</span></p>
 					</div>
 				</div>
+
 				<div className = "row panel-left-align">
-					<div className = "columns medium-6">
+					<div className = "columns medium-6 exp-panel">
 						<h4>Experience</h4>
 						<hr/>
 						<ul className = "no-bullet">
-							<li className="larger">Division of Information Technology, UMD</li>
-							<li className="emph">Web & Media Designer</li>
-							<li><span>Sept '16 - Present</span></li>
+							<li className="larger">Vistaprint Digital</li>
+							<li className="emph">Software Engineering Intern</li>
+							<li><span>June '17 - Present</span></li>
 						</ul>
 						<ul className = "no-bullet">
-							<li className="larger">Software Developer</li>
-							<li className="emph">Hewlett-Packard Enterprise</li>
+							<li className="larger">Division of Information Technology, UMD</li>
+							<li className="emph">Web & Media Designer</li>
+							<li><span>Sept '16 - May '17</span></li>
+						</ul>
+						<ul className = "no-bullet">
+							<li className="larger">Hewlett-Packard Enterprise</li>
+							<li className="emph">Software Developer</li>
 							<li><span>Aug '15 - Jun '16</span></li>
 						</ul>
 						<ul className = "no-bullet">
-							<li className="larger">Research Assistant</li>
-							<li className="emph">Image Lab, NTU</li>
+							<li className="larger">Image Lab, NTU</li>
+							<li className="emph">Research Assistant</li>
 							<li><span>Dec '14 - Jun '16</span></li>
 						</ul>
 						<ul className = "no-bullet">
-							<li className="larger">Research Assistant</li>
-							<li className="emph">Mobile and Human Computer Interaction Lab, NTU</li>
+							<li className="larger">Mobile and Human Computer Interaction Lab, NTU</li>
+							<li className="emph">Research Assistant</li>
 							<li><span>Jun '15 - Jun '16</span></li>
 						</ul>
 					</div>
+
 					<div className = "columns medium-6">
 						<h4>Education</h4>
 						<hr/>
