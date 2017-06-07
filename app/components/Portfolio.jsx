@@ -21,7 +21,7 @@ class Portfolio extends React.Component {
 			<div className = "row">
 				<div className = "columns medium-10 small-centered">
 					<h1>portfolio</h1>
-					<h4>coming soon... (view deprecated portfolio at <a href="jcychang.github.io" target="_blank">jcychang.github.io</a>)</h4>
+					<h4>coming soon... (view deprecated portfolio at <a href="https://jcychang.github.io" target="_blank">jcychang.github.io</a>)</h4>
 					{/* <Slider {...settings}>
 						<div><ModalTemplate/></div>
 						<div><img src={require('../assets/Color2.png')}/></div>

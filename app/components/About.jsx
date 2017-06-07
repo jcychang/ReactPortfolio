@@ -7,12 +7,12 @@ export default class About extends React.Component {
 	render() {
 		return (
 			<div>
-				<div className = "row title-panel">
-					<div className = "columns medium-8 small-centered">
+				<div className = "row row-100 title-panel">
+					<div className = "columns medium-6 small-centered">
 						<h2>Josh Chang</h2>
 						<h5>UX Designer & Software Developer</h5>
-						<a href=""><i className="mdi mdi-linkedin-box mdi-light mdi-36px"/></a>
-						<a href=""><i className="mdi mdi-github-box mdi-light mdi-36px"/></a>
+						<a href="https://www.linkedin.com/in/chiun-yao-josh-chang-613139127"><i className="mdi mdi-linkedin-box mdi-light mdi-36px"/></a>
+						<a href="https://github.com/jcychang"><i className="mdi mdi-github-box mdi-light mdi-36px"/></a>
 					</div>
 				</div>
 
@@ -98,6 +98,29 @@ export default class About extends React.Component {
 					</div>
 
 					<div className = "columns medium-6">
+						<h4>Skills</h4>
+						<hr/>
+						<ul className = "no-bullet">
+							<li className="larger">Creative Tools</li>
+							<li className="emph"><i>Adobe Suite (Photoshop, Illustrator, Experience Design), Sketch</i>, Axure, Invision</li>
+						</ul>
+						<ul className = "no-bullet">
+							<li className="larger">Framework/Libraries</li>
+							<li className="emph"><strong>Bootstrap</strong>, <i>React, Redux, Node.js, Express.js, Foundation</i></li>
+						</ul>
+						<ul className = "no-bullet">
+							<li className="larger">Programming Languages</li>
+							<li className="emph"><strong>HTML/CSS/JS</strong>, <i>Python, JQuery, C#, C/C++</i></li>
+						</ul>
+						<ul className = "no-bullet">
+							<li className="larger">Project Management</li>
+							<li className="emph"><strong>Git</strong>, <i>Agile Methodologies w/ Scrum</i>, Continuous Integration</li>
+						</ul>
+						<ul className = "no-bullet">
+							<li className="larger">Languages</li>
+							<li className="emph">Fluent in both English and Mandarin Chinese</li>
+						</ul>
+						<p className = "foot-note">* Bold: Expert, Italics: Proficient</p>
 						<h4>Education</h4>
 						<hr/>
 						<ul className = "no-bullet">
