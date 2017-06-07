@@ -19,31 +19,30 @@ export default class About extends React.Component {
 				<div className = "row text-center panel-center-align">
 					<div className = "columns medium-12">
 						<h3>Career Highlights</h3>
-						<hr/>
 					</div>
 					<div className = "columns medium-3">
-						<i className="mdi mdi-briefcase"/>
-						<h5>2015 - Joined HP Enterprise</h5>
+						<img src={require('../assets/AboutIcons/HPEIcon.png')}/>
+						<h5>2015 - Started Work</h5>
 						<h6 className="emph">Hewlett-Packard Enterprise</h6>
 						<p className="ital"><span>Software Developer</span></p>
 					</div>
 					<div className = "columns medium-3">
-						<i className="mdi mdi-school"/>
+						<img src={require('../assets/AboutIcons/NTUIcon.png')}/>
 						<h5>2016 - Graduated</h5>
 						<h6 className="emph">National Taiwan University</h6>
 						<p className="ital"><span>Bachelor of Science</span></p>
 					</div>
 					<div className = "columns medium-3">
-						<i className="mdi mdi-school"/>
-						<h5>2017 - Master's Candidate</h5>
-						<h6 className="emph">University of Maryland</h6>
-						<p className="ital"><span>Master of Science</span></p>
-					</div>
-					<div className = "columns medium-3">
-						<i className="mdi mdi-briefcase"/>
-						<h5>2017 - Joined Division of IT</h5>
+						<img src={require('../assets/AboutIcons/DITIcon.png')}/>
+						<h5>2017 - Started Work</h5>
 						<h6 className="emph">UMD Division of IT</h6>
 						<p className="ital"><span>Web & Media Designer</span></p>
+					</div>
+					<div className = "columns medium-3">
+						<img src={require('../assets/AboutIcons/VistaprintIcon.png')}/>
+						<h5>2017 - Started Work</h5>
+						<h6 className="emph">Vistaprint Digital</h6>
+						<p className="ital"><span>Software Engineering Intern</span></p>
 					</div>
 				</div>
 

@@ -7,7 +7,12 @@ span {
 }
 .emph {
 	color: $color-blue;
+	font-style: normal;
+	text-decoration: none;
 }
 .ital {
 	font-style: italic;
+}
+.page-title {
+	text-align: center;
 }

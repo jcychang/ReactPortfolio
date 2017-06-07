@@ -21,14 +21,15 @@ class Portfolio extends React.Component {
 			<div className = "row">
 				<div className = "columns medium-10 small-centered">
 					<h1>portfolio</h1>
-					<Slider {...settings}>
+					<h4>coming soon... (view deprecated portfolio at <a href="jcychang.github.io" target="_blank">jcychang.github.io</a>)</h4>
+					{/* <Slider {...settings}>
 						<div><ModalTemplate/></div>
 						<div><img src={require('../assets/Color2.png')}/></div>
 						<div><img src={require('../assets/Color3.png')}/></div>
 						<div><img src={require('../assets/Color4.png')}/></div>
 						<div><img src={require('../assets/Color5.png')}/></div>
 						<div><img src={require('../assets/Color6.png')}/></div>
-					</Slider>
+					</Slider> */}
 				</div>
 			</div>
 		)

@@ -20,14 +20,13 @@ $(document).ready(function(){
 
 // App css
 require('style-loader!css-loader!sass-loader!applicationStyles');
-require('style-loader!css-loader!sass-loader!timelineStyles');
 
 ReactDOM.render (
 	<HashRouter>
 		<div>
 			<NavBar/>
-			<Route path="/" exact component={Portfolio}/>
-			<Route path="/about" exact component={About}/>
+			<Route path="/" exact component={About}/>
+			<Route path="/portfolio" exact component={Portfolio}/>
 			<Route path="/blog" exact component={Blog}/>
 			<Footer/>
 		</div>

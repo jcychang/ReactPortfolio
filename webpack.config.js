@@ -24,7 +24,6 @@ module.exports = {
 		modules: [__dirname, 'node_modules'],
 		alias: {
 			applicationStyles: 'app/styles/app.scss',
-			timelineStyles: 'app/styles/timeline.scss',
 		},
 		extensions: ['*', '.js', '.jsx']
 	},

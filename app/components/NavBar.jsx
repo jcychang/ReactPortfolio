@@ -13,10 +13,10 @@ export default class NavBar extends React.Component {
 						<ul className = "menu">
 							<li className = "menu-text">josh<span>chang</span></li>
 							<li>
-								<NavLink exact to="/" activeClassName = "active-link" activeStyle={{fontWeight: 'bold'}}>portfolio</NavLink>
+								<NavLink exact to="/" activeClassName = "active-link" activeStyle={{fontWeight: 'bold'}}>about</NavLink>
 							</li>
 							<li>
-								<NavLink exact to="/about" activeClassName = "active-link" activeStyle={{fontWeight: 'bold'}}>about</NavLink>
+								<NavLink exact to="/portfolio" activeClassName = "active-link" activeStyle={{fontWeight: 'bold'}}>portfolio</NavLink>
 							</li>
 							<li>
 								<NavLink exact to="/blog" activeClassName = "active-link" activeStyle={{fontWeight: 'bold'}}>blog</NavLink>
