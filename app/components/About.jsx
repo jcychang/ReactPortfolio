@@ -54,26 +54,46 @@ export default class About extends React.Component {
 							<li className="larger">Vistaprint Digital</li>
 							<li className="emph">Software Engineering Intern</li>
 							<li><span>June '17 - Present</span></li>
+							<ul>
+								<li>Front-end UX design and development of customer-facing applications</li>
+								<li>Utilized modern web technology stack (React.js, Node.js) and UX design principles</li>
+							</ul>
 						</ul>
 						<ul className = "no-bullet">
 							<li className="larger">Division of Information Technology, UMD</li>
 							<li className="emph">Web & Media Designer</li>
 							<li><span>Sept '16 - May '17</span></li>
+							<ul>
+								<li>Led the rebranding of University of Maryland student-facing academic websites</li>
+								<li>Completed the end-to-end process of design to development to launch</li>
+							</ul>
 						</ul>
 						<ul className = "no-bullet">
 							<li className="larger">Hewlett-Packard Enterprise</li>
 							<li className="emph">Software Developer</li>
 							<li><span>Aug '15 - Jun '16</span></li>
+							<ul>
+								<li>Developed front and back-end features for internal server virtualization stress testing software</li>
+								<li>Ran agile scrum-team and led daily scrums as well as retrospective and planning sessions</li>
+							</ul>
 						</ul>
 						<ul className = "no-bullet">
 							<li className="larger">Image Lab, NTU</li>
 							<li className="emph">Research Assistant</li>
 							<li><span>Dec '14 - Jun '16</span></li>
+							<ul>
+								<li>Explored and implemented interactive systems through the medium of virtual reality</li>
+								<li>Designed the interface and developed a system of virtual museum tours for Dunhuang</li>
+							</ul>
 						</ul>
 						<ul className = "no-bullet">
 							<li className="larger">Mobile and Human Computer Interaction Lab, NTU</li>
 							<li className="emph">Research Assistant</li>
 							<li><span>Jun '15 - Jun '16</span></li>
+							<ul>
+								<li>Researched human-centric hardware/software topics and submitted to academic conferences</li>
+								<li>Designed user-testing and data gathering methodologies and protocols</li>
+							</ul>
 						</ul>
 					</div>
 
@@ -96,12 +116,10 @@ export default class About extends React.Component {
 						<ul className = "no-bullet">
 							<li className="larger">Vibroplay: Authoring Three-Dimensional Spatial-Temporal Tactile Effects with Direct Manipulation</li>
 							<li className="emph">SIGGRAPH Asia 2016, Emerging Technologies</li>
-							<li><span>Expected May '18</span></li>
 						</ul>
 						<ul className = "no-bullet">
-							<li className="larger">B.S., Computer Science and Information Engineering</li>
-							<li className="emph">National Taiwan University</li>
-							<li><span>Graduated Jun '16</span></li>
+							<li className="larger">RealSense: A Better Broadcasting Experience</li>
+							<li className="emph">World Finalists, Intel APEC Global Challenge 2015</li>
 						</ul>
 					</div>
 				</div>
